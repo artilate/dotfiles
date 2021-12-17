@@ -1,0 +1,29 @@
+# Paste contents of file into alacritty.yml
+# Colors
+colors:
+  # Default colors
+  primary:
+    background: '#15121C'
+    foreground: '#D7DAE0'
+
+  # Normal colors
+  normal:
+    black:   '#15121C'
+    red:     '#E28C8C'
+    green:   '#B3E1A3'
+    yellow:  '#F7C196'
+    blue:    '#A4B9EF'
+    magenta: '#C6AAE8'
+    cyan:    '#9DDDCB'
+    white:   '#D7DAE0'
+
+  # Bright colors
+  bright:
+    black:   '#3E4058'
+    red:     '#E28C8C'
+    green:   '#B3E1A3'
+    yellow:  '#F7C196'
+    blue:    '#A4B9EF'
+    magenta: '#C6AAE8'
+    cyan:    '#9DDDCB'
+    white:   '#D7DAE0'

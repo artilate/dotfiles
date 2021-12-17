@@ -1,0 +1,6 @@
+{
+	"suggest.noselect": false,
+	"coc.preferences.formatOnSaveFiletypes": [
+		"json"
+	]
+}
