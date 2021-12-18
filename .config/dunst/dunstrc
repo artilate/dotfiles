@@ -11,8 +11,8 @@
 
   frame_width = 0
   separator_height = 0
-  frame_color = "#151515"
-  separator_color = "#151515"
+  frame_color = "#1e1e28"
+  separator_color = "#1e1e28"
 
   sort = no
   font = JetBrains Mono 10
@@ -40,16 +40,16 @@
 
 [urgency_low]
   background = "#90a959"
-  foreground = "#151515"
+  foreground = "#1e1e28"
   timeout = 5
 
 [urgency_normal]
-  background = "#151515"
+  background = "#1e1e28"
   foreground = "#d0d0d0"
   timeout = 10
 
 [urgency_critical]
   background = "#ac4142"
-  foreground = "#151515"
+  foreground = "#1e1e28"
   timeout = 20
 
