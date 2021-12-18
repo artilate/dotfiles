@@ -365,11 +365,12 @@ animation-discharging-framerate = 750
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
-warn-temperature = 60
-
+warn-temperature = 90
+interval = 2
+hwmon-path = /sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon1/temp1_input
 format =[<label>]
 ;format-underline = #f50a4d
-format-warn = <ramp> <label-warn>
+format-warn = [<label-warn>]
 format-warn-underline = ${self.format-underline}
 
 label = %temperature-c%
