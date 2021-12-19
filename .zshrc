@@ -1,5 +1,5 @@
 #Prompt
-PS1="%F{green}%B%~/%b%f "
+PS1="%F{magenta}%B%~/%b%f "
 
 #Exports 
 export PATH="$HOME/.local/bin/:$PATH"
@@ -7,6 +7,7 @@ export PATH="$HOME/.local/bin/:$PATH"
 # Aliases
 alias ls='ls --color=auto'
 alias cd..="cd .."
+alias py='python'
 # History
 HISTSIZE=500
 SAVEHIST=1000
