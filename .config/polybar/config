@@ -19,10 +19,10 @@
 [colors]
 ;background = ${xrdb:color0:#222}
 background = #1b1923
-background-alt = #3E4058
+background-alt = #f9c096
 ;foreground = ${xrdb:color7:#222}
 foreground = #d7dae0
-foreground-alt = #6E6C7C
+foreground-alt = #1e1e28
 primary = #c6aae8
 secondary = #e28c8c
 alert = #e28c8c
@@ -51,7 +51,7 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = JetBrains Mono:pixelsize=10;1
+font-0 = JetBrains Mono:pixelsize=10;2
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = feather:pixelsize=10;1
 
@@ -112,6 +112,7 @@ type = internal/bspwm
 
 label-focused = %name%
 label-focused-background = ${colors.background-alt}
+label-focused-foreground = ${colors.foreground-alt}
 ;label-focused-underline= ${colors.primary}
 label-focused-padding = 1
 
@@ -123,7 +124,7 @@ label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
 
 label-empty = %name%
-label-empty-foreground = ${colors.foreground-alt}
+label-empty-foreground = #6e6c7e
 label-empty-padding = 1
 
 ; Separator in between workspaces
@@ -268,8 +269,8 @@ date =
 time = %l:%M
 ;time-alt = %H:%M:%S
 
-format-prefix = ""
-format-prefix-foreground = #a4b9ef
+format-prefix = " "
+format-prefix-foreground = #988ba2
 ;format-underline = #0a6cf5
 
 label =%time%

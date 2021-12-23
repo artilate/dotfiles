@@ -53,3 +53,4 @@ xrandr --output DisplayPort-0 --mode 1920x1080 -r 144 --primary #This monitor is
 xrandr --output DisplayPort-1 --mode 1920x1080 -r 144 --left-of DisplayPort-0
 exec bspwm
 #exec worm
+#exec dwm
