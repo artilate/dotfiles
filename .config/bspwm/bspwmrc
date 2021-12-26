@@ -28,6 +28,8 @@ bc gapless_monocle true
 bc focus_follows_pointer true
 
 bc split_ratio 0.55
+#bc top_padding 0
+
 #rules
 br -a feh state=floating
 br -a sxiv state=floating
