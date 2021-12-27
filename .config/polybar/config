@@ -225,7 +225,7 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = #bee4ed
 ;format-underline = #4bffdc
-label =%percentage_used%%
+label =%gb_used%
 
 [module/wlan]
 type = internal/network
