@@ -17,7 +17,7 @@ alias bc='bspc config'
 alias br='bspc rule'
 
 #Workspaces
-bspc monitor DisplayPort-0 -d web term game 4 5 6 7 8 9
+bspc monitor DisplayPort-0 -d web term 3 4 5 6 7 8 9
 bspc monitor DisplayPort-1 -d dis mus 3 4 5 6 7 8 9
 
 #Others
@@ -35,4 +35,3 @@ br -a feh state=floating
 br -a sxiv state=floating
 #br -a mpv state=floating
 br -a discord desktop="dis"
-br -a steam desktop="game"

@@ -45,6 +45,9 @@ Plug 'catppuccin/nvim'
 "Markdown Preview"
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
+"Discored Rich Presence
+Plug 'andweeb/presence.nvim'
+
 "Initialize plugin system
 
 call plug#end()
