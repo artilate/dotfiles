@@ -1,5 +1,5 @@
 #Prompt
-PS1="%F{magenta}%B%~/%b%f "
+PS1="%F{#F2CDCD}%B%~/%b%f "
 
 #Exports 
 export PATH="$HOME/.local/bin/:$PATH"
