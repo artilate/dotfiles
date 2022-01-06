@@ -1,0 +1,10 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+XDG_CURRENT_DESKTOP=Unity
+QT_QPA_PLATFORMTHEME=gtk2
+AMD_VULKAN_ICD=RADV
+#RADV_PERFTEST=nggc
+RANGER_LOAD_DEFAULT_RC=FALSE

@@ -6,11 +6,14 @@ pgrep -x picom > /dev/null || picom & #if needed, add "killall picom"
 pgrep -x dunst > /dev/null || dunst &
 pgrep -x nitrogen > /dev/null || nitrogen --restore &
 pgrep -x unclutter > /dev/null || unclutter &
+pactl set-sink-volume @DEFAULT_SINK@ 100%
 #redshift -x && redshift -O 4000k &
 xsetroot -cursor_name left_ptr &
 killall polybar
 $HOME/.config/polybar/launch.sh &
 #polybar example &
+killall rclone
+rclone --vfs-cache-mode writes mount onedrive: /home/alec/onedrive &
 
 #variable
 alias bc='bspc config'
