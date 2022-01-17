@@ -12,6 +12,7 @@ xsetroot -cursor_name left_ptr &
 killall polybar
 $HOME/.config/polybar/launch.sh &
 #polybar example &
+
 killall rclone
 rclone --vfs-cache-mode writes mount onedrive: /home/alec/onedrive &
 rclone --vfs-cache-mode writes mount personalonedrive: /home/alec/personalonedrive &

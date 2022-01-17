@@ -52,8 +52,8 @@ module-margin-left = 1
 module-margin-right = 1
 
 font-0 = JetBrains Mono:pixelsize=10;2
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = feather:pixelsize=10;1
+font-1 = scientifica:fontformat=truetype:size=10:antialias=true;2
+font-2 = feather:pixelsize=10;2
 
 modules-left = bspwm
 modules-center = title
@@ -133,10 +133,21 @@ label-empty = %name%
 label-empty-foreground = #6e6c7e
 label-empty-padding = 1
 
+label-monocle = 
+label-tiled = 
+label-monocle-foreground = ${colors.background-alt}
+label-tiled-foreground = ${colors.background-alt}
+label-monocle-padding = 1
+label-tiled-padding = 1
+label-monocle-background = #302D41
+label-tiled-background = #302D41
+
 ; Separator in between workspaces
 ;label-separator = |
 
 enable-scroll = false
+
+format = <label-state>%{T3}<label-mode>
 
 [module/i3]
 type = internal/i3
