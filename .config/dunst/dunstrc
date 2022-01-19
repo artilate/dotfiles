@@ -11,11 +11,11 @@
 
   frame_width = 0
   separator_height = 0
-  frame_color = "#1e1e28"
-  separator_color = "#1e1e28"
+  frame_color = "#191724"
+  separator_color = "#191724"
 
   sort = no
-  font = JetBrains Mono 10
+  font = JetBrains Mono 9.5
   markup = full
   format = "<b>%s</b>\n%b"
   alignment = left
@@ -39,17 +39,17 @@
   mouse_right_click = close_all
 
 [urgency_low]
-  background = "#90a959"
-  foreground = "#1e1e28"
+  background = "#ebbcba"
+  foreground = "#191724"
   timeout = 5
 
 [urgency_normal]
-  background = "#1e1e28"
-  foreground = "#d0d0d0"
+  background = "#191724"
+  foreground = "#e0def4"
   timeout = 10
 
 [urgency_critical]
-  background = "#ac4142"
+  background = "#eb6f92"
   foreground = "#1e1e28"
   timeout = 20
 
