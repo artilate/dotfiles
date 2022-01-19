@@ -18,14 +18,14 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #1b1923
-background-alt = #F2CDCD
+background = #191724
+background-alt = #ebbcba
 ;foreground = ${xrdb:color7:#222}
-foreground = #d7dae0
-foreground-alt = #1e1e28
-primary = #c6aae8
-secondary = #e28c8c
-alert = #e28c8c
+foreground = #e0def4
+foreground-alt = #26233a
+primary = #c4a7e7
+secondary = #eb6f92
+alert = #eb6f92
 
 [bar/example]
 monitor = ${env:MONITOR:}
@@ -51,7 +51,7 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = JetBrains Mono:pixelsize=10;2
+font-0 = JetBrains Mono:weight=200:pixelsize=9.5;1
 font-1 = scientifica:fontformat=truetype:size=10:antialias=true;2
 font-2 = feather:pixelsize=10;2
 
@@ -130,7 +130,7 @@ label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
 
 label-empty = %name%
-label-empty-foreground = #6e6c7e
+label-empty-foreground = #555169
 label-empty-padding = 1
 
 label-monocle = 
@@ -139,8 +139,8 @@ label-monocle-foreground = ${colors.background-alt}
 label-tiled-foreground = ${colors.background-alt}
 label-monocle-padding = 1
 label-tiled-padding = 1
-label-monocle-background = #302D41
-label-tiled-background = #302D41
+label-monocle-background = ${colors.foreground-alt}
+label-tiled-background = ${colors.foreground-alt}
 
 ; Separator in between workspaces
 ;label-separator = |
@@ -226,7 +226,7 @@ card = intel_backlight
 type = internal/cpu
 interval = 2
 format-prefix = " "
-format-prefix-foreground = #c6aae8
+format-prefix-foreground = #c4a7e7
 ;format-underline = #f90000
 label =%percentage%%
 
@@ -234,7 +234,7 @@ label =%percentage%%
 type = internal/memory
 interval = 2
 format-prefix = " "
-format-prefix-foreground = #bee4ed
+format-prefix-foreground = #9ccfd8
 ;format-underline = #4bffdc
 label =%gb_used%
 
@@ -267,7 +267,7 @@ interval = 1.0
 
 ;format-connected-underline = #55aa55
 format-connected-prefix = " "
-format-connected-prefix-foreground = #f9c096
+format-connected-prefix-foreground = #f6c177
 label-connected = %downspeed%
 
 format-disconnected =
@@ -287,7 +287,7 @@ time = %l:%M
 ;time-alt = %H:%M:%S
 
 format-prefix = " "
-format-prefix-foreground = #988ba2
+format-prefix-foreground = #6e6a86
 ;format-underline = #0a6cf5
 
 label =%time%
@@ -388,7 +388,7 @@ interval = 2
 hwmon-path = /sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon1/temp1_input
 format =<label>
 format-prefix= " "
-format-prefix-foreground=#E38C8f
+format-prefix-foreground= #eb6f92
 ;format-underline = #f50a4d
 format-warn = <label-warn>
 format-warn-underline = ${self.format-underline}
@@ -436,6 +436,7 @@ type = internal/xwindow
 format = <label>
 label-maxlen = 100
 label = %title%
+label-foreground = ${colors.foreground}
 
 [settings]
 screenchange-reload = true

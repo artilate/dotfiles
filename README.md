@@ -4,7 +4,7 @@ Not that good with scripting so the install script is very simple. The install s
 
 .zshrc and .xinitrc are not installed via the install script. Simply put these two files in your home directory.
 
-The color scheme for my configs are based around "catppuccin". Check out there [github](https://github.com/catppuccin/catppuccin)
+The color scheme for my (most) configs are based around "rose pine". Check out there [github](https://github.com/rose-pine/rose-pine-theme). Older versions of my config are based around catppuccin theme, but I decided to switch to rose pine.
 
 Fonts to install:
 "ttf-feather"
