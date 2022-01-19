@@ -29,11 +29,11 @@ alert = #eb6f92
 
 [bar/example]
 monitor = ${env:MONITOR:}
-width = 100%
+width = 1900
 height = 27
-offset-x = 0%
-offset-y = 0%
-radius = 0
+offset-x = 10
+offset-y = 10
+radius = 7
 fixed-center = true
 
 background = ${colors.background}
@@ -139,8 +139,8 @@ label-monocle-foreground = ${colors.background-alt}
 label-tiled-foreground = ${colors.background-alt}
 label-monocle-padding = 1
 label-tiled-padding = 1
-label-monocle-background = ${colors.foreground-alt}
-label-tiled-background = ${colors.foreground-alt}
+label-monocle-background = ${colors.background}
+label-tiled-background = ${colors.background}
 
 ; Separator in between workspaces
 ;label-separator = |
