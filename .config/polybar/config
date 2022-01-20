@@ -27,7 +27,7 @@ primary = #c4a7e7
 secondary = #eb6f92
 alert = #eb6f92
 
-[bar/example]
+[bar/left]
 monitor = ${env:MONITOR:}
 width = 1900
 height = 27
@@ -52,8 +52,8 @@ module-margin-left = 1
 module-margin-right = 1
 
 font-0 = JetBrains Mono:weight=200:pixelsize=9.5;1
-font-1 = scientifica:fontformat=truetype:size=10:antialias=true;2
-font-2 = feather:pixelsize=10;2
+font-1 = Symbols Nerd Font:fontformat=truetype:size=10:antialias=true;2
+font-2 = feather:pixelsize=10:antialias=true;2
 
 modules-left = bspwm
 modules-center = title
@@ -74,6 +74,62 @@ wm-restack = bspwm
 ;scroll-up = i3wm-wsnext
 ;scroll-down = i3wm-wsprev
 
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/middle]
+monitor = ${env:MONITOR:}
+width = 20%
+height = 27
+offset-x = 50%
+offset-y = 10
+radius = 7
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 1
+
+modules-center = title
+
+font-0 = JetBrains Mono:weight=200:pixelsize=9.5;1
+font-1 = Symbols Nerd Font:fontformat=truetype:size=10:antialias=true;2
+font-2 = feather:pixelsize=10:antialias=true;2
+
+wm-restack = bspwm
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/right]
+monitor = ${env:MONITOR:}
+width = 1900
+height = 27
+offset-x = 10
+offset-y = 10
+radius = 7
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 1
+
+modules-center = eth memory temperature cpu clocktext date
+
+font-0 = JetBrains Mono:weight=200:pixelsize=9.5;1
+font-1 = Symbols Nerd Font:fontformat=truetype:size=10:antialias=true;2
+font-2 = feather:pixelsize=10:antialias=true;2
+
+wm-restack = bspwm
 cursor-click = pointer
 cursor-scroll = ns-resize
 
@@ -220,7 +276,7 @@ bar-empty-foreground = ${colors.foreground-alt}
 [module/backlight-acpi]
 inherit = module/xbacklight
 type = internal/backlight
-card = intel_backlight
+card = =
 
 [module/cpu]
 type = internal/cpu
@@ -228,7 +284,7 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = #c4a7e7
 ;format-underline = #f90000
-label =%percentage%%
+label = %percentage%%
 
 [module/memory]
 type = internal/memory
