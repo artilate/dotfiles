@@ -58,7 +58,7 @@ font-2 = feather:pixelsize=10:antialias=true;2
 
 modules-left = bspwm
 modules-center = title
-modules-right = eth memory temperature cpu clocktext date 
+modules-right = eth wlan memory temperature cpu clocktext date 
 
 ;tray-position = right
 ;tray-padding = 2
@@ -333,11 +333,11 @@ label-background = ${colors.bar-back}
 [module/wlan]
 type = internal/network
 interface = wlo1
-interval = 3.0
+interval = 1.0
 
-format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
-label-connected = %essid%
+format-connected-prefix = " "
+format-connected-prefix-foreground = #f6c177
+label-connected = %downspeed%
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
