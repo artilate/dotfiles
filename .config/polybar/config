@@ -58,7 +58,7 @@ font-2 = feather:pixelsize=10:antialias=true;2
 
 modules-left = bspwm
 modules-center = title
-modules-right = eth wlan memory temperature cpu clocktext date 
+modules-right = eth memory temperature cpu clocktext date 
 
 ;tray-position = right
 ;tray-padding = 2
