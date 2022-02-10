@@ -540,7 +540,7 @@ type = internal/xwindow
 format = <label>
 label-maxlen = 75
 label = %title%
-label-foreground = #f2e9e1
+label-foreground = #dfdad9
 label-background = ${colors.bar-back}
 
 [settings]
