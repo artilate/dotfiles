@@ -166,7 +166,7 @@ cursor-scroll = ns-resize
 type = custom/text
 content = |
 content-padding = 0
-content-foreground = ${color.foreground}
+content-foreground = #524f67 
 content-background = ${color.bar-back}
 
 [module/xwindow]
@@ -319,6 +319,7 @@ format-prefix-background = ${colors.bar-back}
 ;format-underline = #f90000
 label = %percentage%%
 label-background = ${colors.bar-back}
+label-foreground = #c4a7e7
 
 [module/memory]
 type = internal/memory
@@ -329,6 +330,7 @@ format-prefix-background = ${colors.bar-back}
 ;format-underline = #4bffdc
 label =%gb_used%
 label-background = ${colors.bar-back}
+label-foreground = #9ccfd8
 
 [module/wlan]
 type = internal/network
@@ -338,6 +340,7 @@ interval = 1.0
 format-connected-prefix = " "
 format-connected-prefix-foreground = #f6c177
 label-connected = %downspeed%
+label-connected-foreground = #f6c177
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -362,6 +365,7 @@ format-connected-prefix = " "
 format-connected-prefix-foreground = #f6c177
 format-connected-prefix-background = ${colors.bar-back}
 label-connected = %downspeed%
+label-connected-foreground = #f6c177
 label-connected-background = ${colors.bar-back}
 
 format-disconnected =
@@ -380,9 +384,10 @@ date =
 time = %l:%M
 ;time-alt = %H:%M:%S
 label-background = ${colors.bar-back}
+label-foreground = #908caa
 
 format-prefix = " "
-format-prefix-foreground = #6e6a86
+format-prefix-foreground = #908caa
 format-prefix-background = ${colors.bar-back}
 ;format-underline = #0a6cf5
 
@@ -492,6 +497,7 @@ format-warn-underline = ${self.format-underline}
 
 label = %temperature-c%
 label-background = ${colors.bar-back}
+label-foreground = #eb6f92
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
@@ -534,7 +540,7 @@ type = internal/xwindow
 format = <label>
 label-maxlen = 75
 label = %title%
-label-foreground = ${colors.foreground}
+label-foreground = #f2e9e1
 label-background = ${colors.bar-back}
 
 [settings]
