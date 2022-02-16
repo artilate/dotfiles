@@ -1,4 +1,4 @@
-# dotfiles
+# artilate's dotfiles
 My dotfiles.
 Not that good with scripting so the install script is very simple. The install script doesn't overwrite any current configurations.
 
