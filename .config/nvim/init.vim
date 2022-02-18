@@ -59,6 +59,9 @@ Plug 'romgrk/barbar.nvim'
 "Lualine
 Plug 'nvim-lualine/lualine.nvim'
 
+"Godot
+Plug 'habamax/vim-godot' 
+
 "Initialize plugin system
 
 call plug#end()
@@ -320,7 +323,7 @@ let bufferline.exclude_name = ['package.json']
 " if set to 'buffer_number', will show buffer number in the tabline
 " if set to 'numbers', will show buffer index in the tabline
 " if set to 'both', will show buffer index and icons in the tabline
-let bufferline.icons = v:true
+let bufferline.icons = v:false
 
 " Sets the icon's highlight group.
 " If false, will use nvim-web-devicons colors

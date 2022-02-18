@@ -8,7 +8,7 @@ super + p
 	flameshot screen -p /home/alec/Pictures/screenshots --clipboard
 
 super + g 
-	flameshot gui -p /home/alec/Pictures/screenshots
+	flameshot gui
 
 super + shift + p
 	flameshot full -p /home/alec/Pictures/screenshots --clipboard
