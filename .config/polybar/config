@@ -58,7 +58,7 @@ font-2 = feather:pixelsize=10:antialias=true;2
 
 modules-left = bspwm
 modules-center = title
-modules-right = eth memory temperature cpu clocktext date 
+modules-right = eth memory clocktext gputemp clocktext cpu temperature clocktext date 
 
 ;tray-position = right
 ;tray-padding = 2
@@ -505,6 +505,19 @@ ramp-0 = 
 ramp-1 = 
 ramp-2 = 
 ramp-foreground = ${colors.foreground-alt}
+
+[module/gputemp]
+type = internal/temperature
+interval = 2
+hwmon-path = /sys/devices/pci0000:00/0000:00:03.1/0000:2b:00.0/0000:2c:00.0/0000:2d:00.0/hwmon/hwmon2/temp1_input
+format =<label>
+format-prefix= " "
+format-prefix-foreground= #eb6f92
+format-prefix-background = ${colors.bar-back}
+
+label = %temperature-c%
+label-background = ${colors.bar-back}
+label-foreground = #eb6f92
 
 [module/powermenu]
 type = custom/menu
