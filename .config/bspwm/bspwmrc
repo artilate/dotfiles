@@ -11,6 +11,8 @@ pactl set-sink-volume @DEFAULT_SINK@ 100%
 xsetroot -cursor_name left_ptr &
 killall polybar
 $HOME/.config/polybar/launch.sh &
+killall flameStart.sh
+$HOME/flameStart.sh &
 #polybar example &
 
 killall rclone
