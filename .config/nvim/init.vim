@@ -67,6 +67,7 @@ Plug 'habamax/vim-godot'
 call plug#end()
 
 source $HOME/.config/nvim/coc.vim
+source $HOME/.config/nvim/markdown.vim
 
 function! WinMove(key)
     let t:curwin = winnr()

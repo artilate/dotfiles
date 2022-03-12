@@ -4,5 +4,6 @@
 		"json"
 	],
 	"python.linting.enabled": true,
-	"python.linting.pylintEnabled": true
+  "python.linting.pylintEnabled": true,
+  "svelte.enable-ts-plugin": true
 }

@@ -5,13 +5,13 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 super + p
-	flameshot screen -p /home/alec/Pictures/screenshots --clipboard
+	flameshot screen --clipboard
 
 super + g 
 	flameshot gui
 
 super + shift + p
-	flameshot full -p /home/alec/Pictures/screenshots --clipboard
+	flameshot full --clipboard
 # BSPWM HOTKEYS
 
 # quit/restart bspwm
