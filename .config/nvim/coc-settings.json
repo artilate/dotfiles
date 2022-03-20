@@ -1,9 +1,6 @@
 {
 	"suggest.noselect": false,
-	"coc.preferences.formatOnSaveFiletypes": [
-		"json"
-	],
 	"python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-  "svelte.enable-ts-plugin": true
+  "svelte.enable-ts-plugin": true,
 }
