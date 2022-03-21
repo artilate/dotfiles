@@ -120,3 +120,6 @@ super + @space
 
 super + b
 	$HOME/Joplin/Joplin.AppImage
+
+super + q
+	spacefm

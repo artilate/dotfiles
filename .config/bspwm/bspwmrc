@@ -2,7 +2,7 @@
 
 #Autostart
 pgrep -x sxhkd > /dev/null || sxhkd &
-pgrep -x picom > /dev/null || picom & #if needed, add "killall picom"
+pgrep -x picom > /dev/null || picom --experimental-backends & #if needed, add "killall picom"
 pgrep -x dunst > /dev/null || dunst &
 pgrep -x nitrogen > /dev/null || nitrogen --restore &
 pgrep -x unclutter > /dev/null || unclutter &
