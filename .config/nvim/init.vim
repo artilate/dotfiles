@@ -6,8 +6,9 @@ set tabstop=4
 set shiftwidth=4
 syntax enable
 syntax on
-" ----------------------------- PLUGIN BELOW
 
+" ----------------------------- PLUGIN BELOW
+"
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
@@ -19,8 +20,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'sheerun/vim-polyglot'
 " File Explorer
 Plug 'scrooloose/NERDTree'
-" Auto pairs for '(' '[' '{'
-Plug 'jiangmiao/auto-pairs'
+" Auto Pair for '(' '{' '['
+" For autp pair, use the coc-pairs plugin from CocInstall
 " COC
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Fugitive (Git control)
