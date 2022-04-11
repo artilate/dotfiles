@@ -22,6 +22,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/NERDTree'
 " Auto Pair for '(' '{' '['
 " For autp pair, use the coc-pairs plugin from CocInstall
+" SXHKD Highlighting
+Plug 'baskerville/vim-sxhkdrc'
 " COC
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Fugitive (Git control)
@@ -44,8 +46,8 @@ Plug 'ap/vim-css-color'
 "Highlighting for Nerd Tree
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-"Catppuccin Color Theme
-Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+"Rose pine
+Plug 'rose-pine/neovim'
 
 "Markdown Preview"
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }

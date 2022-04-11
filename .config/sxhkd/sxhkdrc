@@ -12,6 +12,23 @@ super + g
 
 super + shift + p
 	flameshot full --clipboard
+
+# MPC KEYBINDINGS
+super + comma
+	mpc prev 
+
+super + period
+	mpc next
+
+super + l 
+	mpc toggle
+
+super + {_,shift + } + equal
+	mpc volume +{2,10}
+
+super + {_,shift + } + minus
+	mpc volume -{2,10}
+
 # BSPWM HOTKEYS
 
 # quit/restart bspwm
@@ -122,4 +139,4 @@ super + b
 	$HOME/Joplin/Joplin.AppImage
 
 super + q
-	spacefm
+	thunar

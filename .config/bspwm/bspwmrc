@@ -6,6 +6,7 @@ pgrep -x picom > /dev/null || picom --experimental-backends & #if needed, add "k
 pgrep -x dunst > /dev/null || dunst &
 pgrep -x nitrogen > /dev/null || nitrogen --restore &
 pgrep -x unclutter > /dev/null || unclutter &
+pgrep -x mpd > /dev/null || mpd &
 pactl set-sink-volume @DEFAULT_SINK@ 100%
 #redshift -x && redshift -O 4000k &
 xsetroot -cursor_name left_ptr &
@@ -32,7 +33,7 @@ bc focused_border_color '#eb6f92'
 bc normal_border_color '#191724'
 bc active_border_color '#191724'
 
-bc border_width 0
+bc border_width 3
 bc window_gap 10
 bc borderless_monocle false
 bc gapless_monocle false
