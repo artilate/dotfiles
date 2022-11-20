@@ -6,6 +6,8 @@ Not that good with scripting so the install script is very simple. The install s
 
 The color scheme for my (most) configs are based around "rose pine". Check out there [github](https://github.com/rose-pine/rose-pine-theme). Older versions of my config are based around catppuccin theme, but I decided to switch to rose pine.
 
+My cursor theme of [choice](https://github.com/phisch/phinger-cursors)
+
 Fonts to install:
 "ttf-feather"
 "ttf-jetbrains-mono"
